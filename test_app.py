@@ -4,7 +4,7 @@ import unittest
 
 class TestApp(unittest.TestCase):
     def test_hello(self):
-        expected = "Hello World"
+        expected = "Hello World!"
         self.assertEqual(expected, hello())
 
     def test_test(self):
